@@ -1,0 +1,95 @@
+
+/****************************************************/
+
+/* RESPONSIVE */
+
+/****************************************************/
+
+@media screen and (max-width: 1400px) {
+
+	#plato {
+		padding-left: 4.5em;
+	}
+
+	#affDeg, #formerDeg {
+		font-size: 2.7em;
+	}
+
+	#propNbr {
+		font-size: 3.7em;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+	#plato {
+		padding-left: 4em;
+	}
+
+	#affDeg, #formerDeg {
+		font-size: 2.4em;
+	}
+
+	#propNbrBox {
+		padding: .2em 0 .2em 0;
+	}
+
+	#propNbr {
+		font-size: 3.4em;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	#affDeg, #formerDeg {
+		font-size: 2em;
+	}
+
+	#propNbrBox {
+		padding: 0 0 .2em 0;
+	}
+
+	#propNbr {
+		font-size: 3em;
+	}
+
+	#unite {
+		font-size: 3.5em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	#plato {
+		padding-left: 3em;
+	}
+
+	.num10Ext {
+		font-size: .95em;
+		left: 2.5em;
+	}
+
+	.num10Int {
+		font-size: .8em;
+		left: 9.4em;
+	}
+
+	#affDeg, #formerDeg {
+		font-size: 1.5em;
+	}
+
+	#propNbrBox {
+		padding: 0 0 .2.2em 0;
+	}
+
+	#propNbr {
+		font-size: 2em;
+	}
+
+	#unite {
+		font-size: 2.4em;
+	}
+
+}

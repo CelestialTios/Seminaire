@@ -1,0 +1,164 @@
+
+/****************************************************/
+
+/* MODEL */
+
+/****************************************************/
+
+/****************************************************/
+
+/* OPTIONS */
+
+/****************************************************/
+
+#affSucces {
+	display: none;
+}
+
+.blocOptMenu2 {
+	text-align: center;	
+}
+
+#tblOp, #tblOpD {
+	border-collapse: collapse;
+	display: inline-block;
+}
+
+#tblOp td, #tblOpD td {
+	text-align: center;
+}
+
+#chk1M, #chk1C, #chk1D, #chk1U, #chk2M, #chk2C, #chk2D, #chk2U, #chk3M, #chk3C, #chk3D, #chk3U,
+#chk1Ud, #chk1Uc, #chk1Um, #chk2Ud, #chk2Uc, #chk2Um, #chk3Ud, #chk3Uc, #chk3Um {
+	margin: 0 .2em;
+}
+
+/****************************************************/
+
+/* APP */
+
+/****************************************************/
+
+#plato {
+	margin: auto;
+}
+
+.plato-1-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+#depoCompo {
+	padding: 2em 4em;
+	position: relative;
+	text-align: center;
+}
+
+#calculBox {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 14px;
+	/*font-size: 3.5em;*/
+	padding: .2em 1em .5em 1.5em;
+	position: relative;
+}
+
+#calculN, #calculD {
+	display: inline-block;
+	position: relative;
+}
+
+.lRang, .l1, .l2, .l3, .lPropRep, .lProp {
+	text-align: right;
+}
+
+.lRangD, .l1D, .l2D, .l3D, .lPropRepD, .lPropD {
+	text-align: left;
+}
+
+.lSep, .lSepD {
+	border-bottom: 3px solid #222;
+	margin: .2em 0 .5em;
+	position: relative;
+}
+
+.chiff, .rang, .vid, .vidRep, .inptRepM, .inptRepC, .inptRepD, .inptRepU, .inptPropDM, .inptPropM, .inptPropC, .inptPropD, .inptPropU,
+.rangD, .inptRepUd, .inptRepUc, .inptRepUm, .inptPropUd, .inptPropUc, .inptPropUm {
+	display: inline-block;
+	text-align: center;
+	/*width: 120px;*/
+}
+
+.virg, .virgVid {
+	display: inline-block;
+	text-align: center;
+	/*width: 30px;*/
+}
+
+.rang, #rangVirg {
+	color: rgba(00, 00, 00, 0.3);
+	font-size: 2.5rem; 
+}
+
+.plus {
+	bottom: .2em;
+	left: -.9em;
+	position: absolute;
+}
+
+.egal {
+	bottom: -2.1em;
+	left: -.9em;
+	position: absolute;
+}
+
+#propDM, #propM, #propC, #propD, #propU, #propUd, #propUc, #propUm {
+	background-color: rgba(255, 255, 255, 0.95);
+	border: 3px solid #ccc;
+	border-radius: 14px;
+	color: #007fff;
+	display: inline-block;
+	font-size: 1em;
+	padding: .2em .25em;
+	text-align: center;
+	/*width: 100px;*/
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+
+#propRepM, #propRepC, #propRepD, #propRepU, #propRepUd, #propRepUc, #propRepUm {
+	background-color: rgba(255, 255, 255, 0.95);
+	border: 3px solid #ccc;
+	border-radius: 14px;
+	color: #007fff;
+	display: inline-block;
+	font-size: .6em;
+	padding: .1em .25em;
+	text-align: center;
+	/*width: 55px;*/
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+
+#grille {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.colGril {
+	border: 1px dashed rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	position: absolute;
+	width: 1px;
+}
+
+/****************************************************/
+
+/* PROFIL */
+
+/****************************************************/
+
+#results {
+  display: grid;
+  grid-template-columns: 1fr;
+}

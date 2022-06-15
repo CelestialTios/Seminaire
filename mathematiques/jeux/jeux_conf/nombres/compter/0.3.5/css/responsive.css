@@ -1,0 +1,117 @@
+
+/****************************************************/
+
+/* RESPONSIVE */
+
+/****************************************************/
+
+@media screen and (max-width: 1300px) {
+
+	.distForm, .distDes, .distDgts, .distNbr {
+		height: 52px;
+		width: 52px;
+	}
+
+	.distSchem {
+		height: 36px;
+		width: 68px;
+	}
+
+	.svgForm, .svgDes, .dgtsBox, .svgNbr {
+		transform: scale(.8) translate(-7px, -7px);
+	}
+
+	.svgSchem {
+		transform: scale(.8) translate(-10px, -5px);
+	}
+
+	.nbrSvg {
+		font-size: 2em;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	#plato {
+		margin-bottom: 4.5em;
+	}
+
+	#digVal, #digComposer {
+		border: 4px solid #BFDFFF;
+		font-size: 4em;
+	}
+
+	/**/
+
+	.distForm, .distDes, .distDgts, .distNbr {
+		height: 46px;
+		width: 46px;
+	}
+
+	.distSchem {
+		height: 32px;
+		width: 60px;
+	}
+
+	.svgForm, .svgDes, .dgtsBox, .svgNbr {
+		transform: scale(.7) translate(-13px, -13px);
+	}
+
+	.svgSchem {
+		transform: scale(.7) translate(-17px, -9px);
+	}
+
+	.sepSchem {
+		display: block;
+	}
+
+	.nbrSvg {
+		font-size: 1.6em;
+	}
+
+	/**/
+
+	.tool {
+		height: 36px;
+		width: 36px;
+	}
+
+	.toolCol {
+		height: 36px;
+		width: 36px;
+	}
+
+	.toolCol .sp-replacer {
+		margin-left: -3px;
+		margin-top: -9px;
+	}
+
+	.slidBox {
+		margin: 0 0 0 1em;
+		width: 80px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	.tool {
+		height: 30px;
+		width: 30px;
+	}
+
+	.toolCol {
+		height: 30px;
+		width: 30px;
+	}
+
+	.toolCol .sp-replacer {
+		margin-left: -6px;
+		margin-top: -15px;
+	}
+
+	.slidBox {
+		margin: 0 0 0 1em;
+		width: 60px;
+	}
+}

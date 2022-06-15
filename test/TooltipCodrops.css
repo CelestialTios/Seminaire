@@ -1,0 +1,57 @@
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip__trigger {
+	cursor: pointer;
+	position: relative;
+}
+
+.tooltip__trigger-text {
+	display: block;
+	padding: 0.85em;
+	pointer-events: none;
+}
+
+.tooltip__base {
+    position: absolute;
+    top: 2.7em;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tooltip__shape,
+.tooltip__deco {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.tooltip__shape {
+    fill: #2f3b51c4;
+}
+
+.tooltip__content {
+    color: #4a4a4a;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding: 0 1em;
+    opacity: 0;
+    font-size: 13px;
+    color: #d8e0ef;
+    line-height: 17px;
+    font-family: 'nunito', sans-serif;
+}

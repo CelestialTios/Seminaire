@@ -1,0 +1,191 @@
+
+/****************************************************/
+
+/* RESPONSIVE */
+
+/****************************************************/
+
+@media screen and (max-width: 1500px) {
+
+	#propVal {
+		font-size: 1.4em;
+	}
+
+	.tdHd {
+		font-size: 1.1em;
+		height: 280px;
+	}
+
+	.chifBox {
+		font-size: 3.7em;
+		height: 80px;
+		line-height: 1.2;
+		width: 80px;
+	}
+
+	#virg {
+		font-size: 7.2em;
+	}
+
+	#btComBox {
+		grid-gap: 25em;
+	}
+
+	.btComM, .btComD {
+		font-size: 1.4em;
+	}
+
+	#digVal, #propBox {
+		border: 7px solid #ddd;
+		font-size: 2.2em;
+	}
+
+}
+
+@media screen and (max-width: 1400px) {
+
+	#propVal {
+		font-size: 1.4em;
+	}
+
+	.tdHd {
+		font-size: 1em;
+		height: 280px;
+	}
+
+	.chifBox {
+		font-size: 3.6em;
+		height: 76px;
+		line-height: 1.26;
+		width: 76px;
+	}
+
+	#virg {
+		font-size: 7.2em;
+	}
+
+	#btComBox {
+		grid-gap: 25em;
+	}
+
+	.btComM, .btComD {
+		font-size: 1.4em;
+	}
+
+	#digVal, #propBox {
+		border: 7px solid #ddd;
+		font-size: 2.2em;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+	#propVal {
+		font-size: 1.4em;
+	}
+
+	.tdHd {
+		font-size: .9em;
+		height: 250px;
+	}
+
+	.chifBox {
+		font-size: 3.6em;
+		height: 70px;
+		line-height: 1.35;
+		width: 70px;
+	}
+
+	#virg {
+		font-size: 7.2em;
+	}
+
+	#btComBox {
+		grid-gap: 25em;
+	}
+
+	.btComM, .btComD {
+		font-size: 1.3em;
+	}
+
+	#digVal, #propBox {
+		border: 6px solid #ddd;
+		font-size: 2em;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	#propVal {
+		font-size: 1.3em;
+	}
+
+	.tdHd {
+		font-size: .8em;
+		height: 230px;
+	}
+
+	.chifBox {
+		font-size: 3em;
+		height: 54px;
+		line-height: 1.35;
+		width: 54px;
+	}
+
+	#virg {
+		font-size: 7em;
+	}
+
+	#btComBox {
+		grid-gap: 20em;
+	}
+
+	.btComM, .btComD {
+		font-size: 1.2em;
+	}
+
+	#digVal, #propBox {
+		border: 5px solid #ddd;
+		font-size: 1.8em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	#propVal {
+		font-size: 1.2em;
+	}
+
+	.tdHd {
+		font-size: .7em;
+		height: 200px;
+		line-height: 1.4;
+	}
+
+	.chifBox {
+		font-size: 2.8em;
+		height: 46px;
+		line-height: 1.4;
+		width: 46px;
+	}
+
+	#virg {
+		font-size: 7em;
+	}
+
+	#btComBox {
+		grid-gap: 15em;
+	}
+
+	.btComM, .btComD {
+		font-size: 1.1em;
+	}
+
+	#digVal, #propBox {
+		border: 4px solid #ddd;
+		font-size: 1.5em;
+	}
+
+}

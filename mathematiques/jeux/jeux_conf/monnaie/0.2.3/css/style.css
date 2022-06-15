@@ -1,0 +1,278 @@
+
+/****************************************************/
+
+/* LA MONNAIE */
+
+/****************************************************/
+
+/****************************************************/
+
+/* OPTIONS */
+
+/****************************************************/
+
+#affSuccesComposer, #affSuccesEcrire, #affSuccesRendre {
+	display: none;
+}
+
+/****************************************************/
+
+/* APP */
+
+/****************************************************/
+
+#plato {
+	margin: auto;
+	margin-bottom: .4em;
+	padding-left: 1em;
+}
+
+.plato-1-1 {
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: 1fr 1fr;
+}
+
+#depoCompo {
+	height: 600px;
+	position: relative;
+	width: 1000px;
+}
+
+#depoCompo .ui-selected, #depoCompo .ui-selecting {
+	border: 2px dotted red;
+}
+
+.ui-selectable {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+
+.ui-selectable-helper {
+	background: rgba(255, 255, 255, .2);
+	border-radius: 2px;
+	position: absolute;
+	z-index: 100;
+	border: 2px dotted red;
+}
+
+#corb {
+	float: right;
+	margin-right: -3em;
+	margin-top: -3em;
+}
+
+#depoEcrireBox {
+	background-color: #eee;
+	border: 8px solid #ddd;
+	border-radius: 7px;
+	height: 600px;
+	position: relative;
+	width: 1000px;
+}
+
+#depoEcrire {
+	text-align: center;
+	width: 900px;
+}
+
+.monnaie {
+	margin: .5em;
+	vertical-align: middle;
+}
+
+/****************************************************/
+
+/* DIGITAL */
+
+/****************************************************/
+
+#digital {
+	margin: auto;
+}
+
+#jeDois, #jeDonne, #onRend {
+	font-size: 1.4em;
+}
+
+.numInfBul {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  height: 40px;
+  left: -2.05em;
+  position: absolute;
+  text-align: center;
+  top: -.03em;
+  width: 40px;
+}
+
+#digCompoBox, #digEcrireBox, #digComposerBox {
+	background-color: #eee;
+	border: 8px solid #ddd;
+	border-radius: 6px;
+	padding: 1em;
+	position: relative;
+}
+
+.fl1D, .fl1G {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 2em;
+	left: -1.8em;
+	position: absolute;
+	top: 50%;
+}
+
+.fl1D {
+	transform: translateY(-50%);
+}
+
+.fl1G {
+	transform: translateY(-50%) rotate(180deg);
+}
+
+#affSomme, #affComposer, #digEcrire {
+	font-size: 3.5em;
+}
+
+#affSomme {
+	background-color: transparent;
+	border: 0;
+	text-align: center;
+	width: 260px;
+}
+
+#affComposer, #digEcrire {
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 5px solid rgba(00, 00, 00, 0.3);
+	border-radius: 6px;
+	padding: 0 .5em;
+	text-align: center;
+}
+
+#digEcrire {
+	color: #007fff;
+	padding: .2em .1em;
+	width: 250px;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+
+.euro {
+	font-size: 4em;
+	padding-left: .5em;
+}
+
+/****************************************************/
+
+/* DISTRIBUTEUR */
+
+/****************************************************/
+
+#distrib {
+	padding: 0 1em 1em;
+}
+
+#distP {
+	display: inline-block;
+}
+
+.pieceBox, .billetBox {
+	display: inline-block;
+	margin: .5em;
+}
+
+.piece {
+	border-radius: 50%;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.billet {
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+	vertical-align: middle;
+}
+
+.draggable {
+	cursor: move;
+}
+
+/* Sliders */
+
+.slidBox {
+	display: inline-block;
+	padding: 2em 0 0;
+	margin: 0 0 0 3em;
+	width: 120px;
+}
+
+	.b500 {
+		width: 114.16px;
+	}
+
+	.b200 {
+		width: 108.16px;
+	}
+
+	.b100 {
+		width: 104.16px;
+	}
+
+	.b50 {
+		width: 99.16px;
+	}
+
+	.b20 {
+		width: 94px;
+	}
+
+	.b10 {
+		width: 90px;
+	}
+
+	.b5 {
+		width: 85px;
+	}
+
+	.p2 {	
+		width: 51.5px;
+	}
+
+	.p1 {	
+		width: 45.83px;
+	}
+
+	.p50c {	
+		width: 47.83px;
+	}
+
+	.p20c {	
+		width: 44.16px;
+	}
+
+	.p10c {	
+		width: 40px;
+	}
+
+	.p5c {	
+		width: 40.66px;
+	}
+
+	.p2c {	
+		width: 36.5px;
+	}
+
+	.p1c {	
+		width: 33.16px;
+	}
+
+/****************************************************/
+
+/* PROFIL */
+
+/****************************************************/
+
+#results {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+}

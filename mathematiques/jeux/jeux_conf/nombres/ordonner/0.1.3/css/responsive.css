@@ -1,0 +1,68 @@
+
+/****************************************************/
+
+/* RESPONSIVE */
+
+/****************************************************/
+
+@media screen and (max-width: 1400px) {
+
+	#depoCompoBox {
+		border: 7px solid #ddd;
+	}
+
+	#depoCompo {
+		padding: 2em 1.5em;
+	}
+
+	.box {
+		font-size: 2.8em;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+
+	#depoCompoBox {
+		border: 6px solid #ddd;
+	}
+
+	#depoCompo {
+		padding: 2em 1.5em;
+	}
+
+	.box {
+		font-size: 2.6em;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	#depoCompoBox {
+		border: 6px solid #ddd;
+	}
+
+	#depoCompo {
+		padding: 1.5em;
+	}
+
+	.box {
+		font-size: 2.4em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	#depoCompoBox {
+		border: 4px solid #ddd;
+	}
+
+	#depoCompo {
+		padding: 1.5em 1em;
+	}
+
+	.box {
+		font-size: 2.2em;
+	}
+
+}

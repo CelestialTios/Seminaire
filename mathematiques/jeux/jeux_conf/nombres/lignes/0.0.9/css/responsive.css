@@ -1,0 +1,29 @@
+
+/****************************************************/
+
+/* RESPONSIVE */
+
+/****************************************************/
+
+@media screen and (max-width: 1300px) {
+
+	#smiley {
+		font-size: 80px !important;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	#smiley {
+		font-size: 70px !important;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	#smiley {
+		font-size: 60px !important;
+	}
+
+}

@@ -1,0 +1,121 @@
+
+/****************************************************/
+
+/* RESPONSIVE */
+
+/****************************************************/
+
+@media screen and (max-width: 1500px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+	#tablo {
+		font-size: 2.7em;
+	}
+
+	#affVal, #affUnt, #affUntConv {
+		font-size: 2.7em;
+	}
+
+	#untMot {
+		font-size: .7em;
+	}
+
+	#propVal, #propUnt, #propValConv {
+		font-size: 2.7em;
+	}
+
+	#temValConv {
+		font-size: 2.7em;
+	}
+
+	#egal {
+		font-size: 2.7em;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+	#tablo {
+		font-size: 2.5em;
+	}
+
+	#affVal, #affUnt, #affUntConv {
+		font-size: 2.5em;
+	}
+
+	#untMot {
+		font-size: .6em;
+	}
+
+	#propVal, #propUnt, #propValConv {
+		font-size: 2.5em;
+	}
+
+	#temValConv {
+		font-size: 2.5em;
+	}
+
+	#egal {
+		font-size: 2.5em;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	#tablo {
+		font-size: 2.2em;
+	}
+
+	#affVal, #affUnt, #affUntConv {
+		font-size: 2.2em;
+	}
+
+	#untMot {
+		font-size: .59em;
+	}
+
+	#propVal, #propUnt, #propValConv {
+		font-size: 2.2em;
+	}
+
+	#temValConv {
+		font-size: 2.2em;
+	}
+
+	#egal {
+		font-size: 2.2em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	#tablo {
+		font-size: 2em;
+	}
+
+	#affVal, #affUnt, #affUntConv {
+		font-size: 2em;
+	}
+
+	#untMot {
+		font-size: .58em;
+	}
+
+	#propVal, #propUnt, #propValConv {
+		font-size: 2em;
+	}
+
+	#temValConv {
+		font-size: 2em;
+	}
+
+	#egal {
+		font-size: 2em;
+	}
+
+}

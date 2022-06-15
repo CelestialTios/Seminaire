@@ -1,0 +1,205 @@
+
+/****************************************************/
+
+/* MODEL */
+
+/****************************************************/
+
+/****************************************************/
+
+/* OPTIONS */
+
+/****************************************************/
+
+/* Sliders */
+
+.slidBox {
+	padding: 1.5em 0 0 0;
+	margin: 0 auto;
+	width: 100px;
+}
+
+.slid {
+	margin-top: -1em;
+}
+
+.slidHandle {
+	height: 24px;
+	line-height: 1.2;
+	width: 24px;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.6em;
+}
+
+#affSucces {
+	display: none;
+}
+
+/****************************************************/
+
+/* APP */
+
+/****************************************************/
+
+#plato {
+	margin: auto;
+}
+
+.plato-1-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+#rglBox {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+}
+
+#rglDrag {
+	height: 110px;
+	cursor: move;
+}
+
+#regle {
+	background-color: rgba(255, 224, 102, 0.7);
+	border-radius: 2px;
+	height: 110px;
+	position: absolute;
+}
+
+#grad {
+	margin: 0 auto;
+	position: relative;
+}
+
+.gradUn, .gradCnq, .gradDix {
+	background-color: #222;
+	position: absolute;
+	width: 1px;
+}
+
+.gradUn {
+	height: 20px;
+}
+
+.gradCnq {
+	height: 30px;
+}
+
+.gradDix {
+	height: 40px;
+}
+
+.chf {
+	font-size: 1.3em;
+	position: absolute;
+	top: 40px;
+	transform: translateX(-50%);
+}
+
+#btRgl {
+	bottom: 5px;
+	left: 5px;
+	position: absolute;
+	text-align: center;
+}
+
+.btRgl {	
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 26px;
+	margin: 0 .1em;
+	width: 26px;
+	z-index: 1;
+}
+
+#objt {
+	cursor: move;
+	position: absolute;
+}
+
+.objet {
+	border-bottom: 1px solid rgba(00, 00, 00, 0.5);
+	border-left: 1px dotted rgba(00, 00, 00, 0.3);
+	border-right: 1px dotted rgba(00, 00, 00, 0.3);
+	padding: 0 0 4em 0;
+}
+
+.objet::before, .objet::after {
+	bottom: 0;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	content: "";
+	height: 0;
+	position: absolute;
+	transform: translateY(50%);
+	width: 0;
+}
+
+.objet::before {
+	border-right: 4px solid rgba(00, 00, 00, 0.7);
+	left: 0;
+}
+
+.objet::after {
+	border-left: 4px solid rgba(00, 00, 00, 0.7);
+	right: 0;
+}
+
+.img {
+	min-width: 100%;
+}
+
+#propBtBox {
+	margin: 0 auto;
+	margin-top: 1em;
+	width: 30%;	
+}
+
+#propNbrBox {
+	background-color: #eee;
+	border: 5px solid #ccc;
+	border-radius: 8px;
+	font-size: 1.5em;
+	margin: 0 auto;
+	padding: .5em 1em;
+	text-align: center;
+	-moz-user-select: text;
+	-webkit-user-select: text; 
+}
+
+#propNbr {
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 0;
+	border-radius: 8px;
+	color: #007fff;
+	display: inline-block;
+	font-size: 1.5em;
+	padding: .1em;
+	text-align: center;
+	width: 70%;
+	-moz-user-select: text;
+	-webkit-user-select: text; 
+}
+
+#unite {
+	display: inline-block;
+	font-size: 1.5em;
+	margin-left: .5em;
+}
+
+/****************************************************/
+
+/* PROFIL */
+
+/****************************************************/
+
+#results {
+  display: grid;
+  grid-template-columns: 1fr;
+}

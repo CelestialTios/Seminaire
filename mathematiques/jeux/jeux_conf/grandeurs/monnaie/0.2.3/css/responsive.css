@@ -1,0 +1,272 @@
+
+/****************************************************/
+
+/* RESPONSIVE */
+
+/****************************************************/
+
+@media screen and (max-width: 1400px) {
+
+	#depoCompo {
+		height: 600px;
+		width: 900px;
+	}
+
+	#depoEcrireBox {
+		height: 600px;
+		width: 900px;
+	}
+
+	#depoEcrire {
+		width: 900px;
+	}
+
+	#affSomme, #digEcrire, .euro, #affComposer {
+		font-size: 3em;
+	}
+
+	#affSomme {
+		width: 250px;
+	}
+
+	#digEcrire {
+		width: 220px;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+	#depoCompo {
+		height: 500px;
+		width: 800px;
+	}
+
+	#depoEcrireBox {
+		height: 500px;
+		width: 800px;
+	}
+
+	#depoEcrire {
+		width: 800px;
+	}
+
+	#depoCompoBox, #depoEcrireBox {
+		border: 6px solid;
+	}
+
+	#digCompoBox, #digEcrireBox, #digComposerBox {
+		border: 6px solid;
+	}
+
+	#affSomme, #digEcrire, .euro, #affComposer {
+		font-size: 2.5em;
+	}
+
+	#affSomme {
+		width: 200px;
+	}
+
+	#digEcrire {
+		width: 190px;
+	}
+
+	#jeDois, #jeDonne, #onRend {
+		font-size: 1.2em;
+	}
+
+	.b500 {
+		width: 138px;
+	}
+
+	.b200 {
+		width: 129.8px;
+	}
+
+	.b100 {
+		width: 125px;
+	}
+
+	.b50 {
+		width: 119px;
+	}
+
+	.b20 {
+		width: 112.8px;
+	}
+
+	.b10 {
+		width: 108px;
+	}
+
+	.b5 {
+		width: 102px;
+	}
+
+	.p2 {	
+		width: 61.8px;
+	}
+
+	.p1 {	
+		width: 55px;
+	}
+
+	.p50c {	
+		width: 57.4px;
+	}
+
+	.p20c {	
+		width: 53px;
+	}
+
+	.p10c {	
+		width: 48px;
+	}
+
+	.p5c {	
+		width: 48.8px;
+	}
+
+	.p2c {	
+		width: 43.8px;
+	}
+
+	.p1c {	
+		width: 39.8px;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	#depoCompo {
+		height: 500px;
+		width: 700px;
+	}
+
+	#depoEcrireBox {
+		height: 500px;
+		width: 700px;
+	}
+
+	#depoEcrire {
+		width: 700px;
+	}
+
+	#digCompoBox, #digEcrireBox, #digComposerBox {
+		padding: .5em;
+	}
+
+	#affSomme, #digEcrire, .euro, #affComposer {
+		font-size: 2em;
+	}
+
+	#affSomme {
+		width: 180px;
+	}
+
+	#digEcrire {
+		width: 130px;
+	}
+
+	#jeDois, #jeDonne, #onRend {
+		font-size: .9em;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	#depoCompo {
+		height: 450px;
+		width: 700px;
+	}
+
+	#depoEcrire {
+		width: 700px;
+	}
+
+	#depoCompoBox, #depoEcrireBox {
+		border: 5px solid;
+	}
+
+	#digCompoBox, #digEcrireBox, #digComposerBox {
+		border: 5px solid;
+	}
+
+	#depoEcrireBox {
+		height: 450px;
+		width: 700px;
+	}
+
+	#affSomme, #digEcrire, .euro, #affComposer {
+		font-size: 1.3em;
+	}
+
+	#affSomme {
+		width: 120px;
+	}
+
+	#jeDois, #jeDonne, #onRend {
+		font-size: .8em;
+	}
+
+	.b500 {
+		width: 114.16px;
+	}
+
+	.b200 {
+		width: 108.16px;
+	}
+
+	.b100 {
+		width: 104.16px;
+	}
+
+	.b50 {
+		width: 99.16px;
+	}
+
+	.b20 {
+		width: 94px;
+	}
+
+	.b10 {
+		width: 90px;
+	}
+
+	.b5 {
+		width: 85px;
+	}
+
+	.p2 {	
+		width: 51.5px;
+	}
+
+	.p1 {	
+		width: 45.83px;
+	}
+
+	.p50c {	
+		width: 47.83px;
+	}
+
+	.p20c {	
+		width: 44.16px;
+	}
+
+	.p10c {	
+		width: 40px;
+	}
+
+	.p5c {	
+		width: 40.66px;
+	}
+
+	.p2c {	
+		width: 36.5px;
+	}
+
+	.p1c {	
+		width: 33.16px;
+	}
+}

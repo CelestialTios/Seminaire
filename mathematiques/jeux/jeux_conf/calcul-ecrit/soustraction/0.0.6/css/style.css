@@ -1,0 +1,271 @@
+
+/****************************************************/
+
+/* MODEL */
+
+/****************************************************/
+
+/****************************************************/
+
+/* OPTIONS */
+
+/****************************************************/
+
+#affSucces {
+	display: none;
+}
+
+.blocOptMenu2 {
+	text-align: center;	
+}
+
+#tblOp, #tblOpD {
+	border-collapse: collapse;
+	display: inline-block;
+}
+
+#tblOp td, #tblOpD td {
+	text-align: center;
+}
+
+#chk1M, #chk1C, #chk1D, #chk1U, #chk2M, #chk2C, #chk2D, #chk2U,
+#chk1Ud, #chk1Uc, #chk1Um, #chk2Ud, #chk2Uc, #chk2Um {
+	margin: 0 .2em;
+}
+
+/****************************************************/
+
+/* APP */
+
+/****************************************************/
+
+#plato {
+	margin: auto;
+}
+
+.plato-1-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+#depoCompo {
+	padding: 2em 4em;
+	position: relative;
+	text-align: center;
+}
+
+#calculBox {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 14px;
+	padding: .2em 1em .5em 1.5em;
+	position: relative;
+}
+
+#calculN, #calculD {
+	display: inline-block;
+	position: relative;
+}
+
+.lRang, .l1, .l2, .lPropRep, .lProp {
+	text-align: right;
+}
+
+.lRangD, .l1D, .l2D, .lPropRepD, .lPropD {
+	text-align: left;
+}
+
+.lSep, .lSepD {
+	border-bottom: 3px solid #222;
+	margin: .2em 0 .5em;
+	position: relative;
+}
+
+.chiff, .rang, .vid, .vidRep, .inptRepM, .inptRepC, .inptRepD, .inptRepU, .inptPropDM, .inptPropM, .inptPropC, .inptPropD, .inptPropU,
+.rangD, .inptRepUd, .inptRepUc, .inptRepUm, .inptPropUd, .inptPropUc, .inptPropUm {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	/*width: 120px;*/
+}
+
+.inptRepM, .inptRepC, .inptRepD, .inptRepU, .inptRepUd, .inptRepUc, .inptRepUm {
+	color: #007fff;
+}
+
+.chiff {
+	position: relative;
+}
+
+.ptR {
+	background-color: #D73902;
+	border-radius: 50%;
+	bottom: 0;
+	cursor: pointer;
+	height: 18px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 18px;
+	z-index: 3;
+}
+
+.imp, .imp2 {
+	font-size: 5rem;
+	left: 50%;
+	line-height: 0.2;
+	position: absolute;
+	top: 0;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.imp {
+	color: #d24500;
+	cursor: pointer;
+}
+
+.imp2 {
+	color: #999;
+}
+
+.bull, .bullL, .bullR {
+	border-radius: 3px;
+	font-size: 1.3rem;
+	padding: .2em 1em;
+	position: absolute;
+	top: -4em;
+	min-width: 360px;
+	z-index: 2;
+}
+
+.bull {
+	background-color: #C0F13A;
+	color: #508400;
+	left: -100%;
+}
+
+.bullL {
+	background-color: #ffbf9f;
+	color: #d24500;
+	left: -160%;
+}
+
+.bullR {
+	background-color: #ffbf9f;
+	color: #d24500;
+	left: 35%;
+}
+
+.flEmp, .flEmp2 {
+	color: #78c600;
+	font-size: 4rem;
+	left: -.7em;
+	position: absolute;
+	top: 1em;
+	z-index: 2;
+}
+
+.flEmp {
+	top: -0.1em;
+	left: -.6em;
+	transform: rotate(130deg);
+}
+
+.flEmp2 {
+	top: -0.8em;
+	left: .4em;
+	transform: rotate(120deg);
+}
+
+.ajt {
+	color: #007fff;
+	left: .3em;
+	position: absolute;
+	top: 0;
+}
+
+.emp {
+	left: 1.9em;
+	position: absolute;
+	top: .9em;
+	transform: translateX(-50%);
+}
+
+.barre {
+	color: #007fff;
+	font-weight: bold;
+	left: 50%;
+	position: absolute;
+	top: .4em;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+
+.virg, .virgVid {
+	display: inline-block;
+	text-align: center;
+}
+
+.rang, #rangVirg {
+	color: rgba(00, 00, 00, 0.3);
+	font-size: 2.5rem; 
+}
+
+.plus {
+	bottom: .2em;
+	left: -.9em;
+	position: absolute;
+}
+
+.egal {
+	bottom: -2.1em;
+	left: -1em;
+	position: absolute;
+}
+
+#propDM, #propM, #propC, #propD, #propU, #propUd, #propUc, #propUm {
+	background-color: rgba(255, 255, 255, 0.95);
+	border: 3px solid #ccc;
+	border-radius: 14px;
+	color: #007fff;
+	display: inline-block;
+	font-size: 1em;
+	padding: .2em .25em;
+	text-align: center;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+
+#propRepM, #propRepC, #propRepD, #propRepU, #propRepUd, #propRepUc, #propRepUm {
+	background-color: rgba(255, 255, 255, 0.95);
+	border: 3px solid #ccc;
+	border-radius: 14px;
+	color: #007fff;
+	display: inline-block;
+	font-size: .6em;
+	padding: .1em .25em;
+	text-align: center;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+
+.grille {
+}
+
+.colGril {
+	border: 1px dashed rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	position: absolute;
+	width: 1px;
+}
+
+/****************************************************/
+
+/* PROFIL */
+
+/****************************************************/
+
+#results {
+  display: grid;
+  grid-template-columns: 1fr;
+}
