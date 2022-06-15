@@ -45,7 +45,7 @@
 	<audio id="35"><source src="audio\trente-cinq.mp3"></source><source src="audio\cinq.ogg"></source></audio>
 	<audio id="36"><source src="audio\trente-six.mp3"></source><source src="audio\six.ogg"></source></audio>
 	<audio id="37"><source src="audio\trente-sept.mp3"></source><source src="audio\sept.ogg"></source></audio>
-	<audio id="38"><source src="audio\trente-huit.mp3"></source><source src="="audio\huit.ogg"></source></audio>
+	<audio id="38"><source src="audio\trente-huit.mp3"></source><source src="audio\huit.ogg"></source></audio>
 	<audio id="39"><source src="audio\trente-neuf.mp3"></source><source src="audio\neuf.ogg"></source></audio>
 	<audio id="40"><source src="audio\quarante.mp3"></source><source src="audio\dix.ogg"></source></audio>
 	<audio id="41"><source src="audio\quarante-et-un.mp3"></source><source src="audio\un.ogg"></source></audio>
@@ -55,7 +55,7 @@
 	<audio id="45"><source src="audio\quarante-cinq.mp3"></source><source src="audio\cinq.ogg"></source></audio>
 	<audio id="46"><source src="audio\quarante-six.mp3"></source><source src="audio\six.ogg"></source></audio>
 	<audio id="47"><source src="audio\quarante-sept.mp3"></source><source src="audio\sept.ogg"></source></audio>
-	<audio id="48"><source src="audio\quarante-huit.mp3"></source><source src="="audio\huit.ogg"></source></audio>
+	<audio id="48"><source src="audio\quarante-huit.mp3"></source><source src="audio\huit.ogg"></source></audio>
 	<audio id="49"><source src="audio\quarante-neuf.mp3"></source><source src="audio\neuf.ogg"></source></audio>
 	<audio id="50"><source src="audio\cinquante.mp3"></source><source src="audio\dix.ogg"></source></audio>
 	<audio id="51"><source src="audio\cinquante-et-un.mp3"></source><source src="audio\un.ogg"></source></audio>
@@ -65,7 +65,7 @@
 	<audio id="55"><source src="audio\cinquante-cinq.mp3"></source><source src="audio\cinq.ogg"></source></audio>
 	<audio id="56"><source src="audio\cinquante-six.mp3"></source><source src="audio\six.ogg"></source></audio>
 	<audio id="57"><source src="audio\cinquante-sept.mp3"></source><source src="audio\sept.ogg"></source></audio>
-	<audio id="58"><source src="audio\cinquante-huit.mp3"></source><source src="="audio\huit.ogg"></source></audio>
+	<audio id="58"><source src="audio\cinquante-huit.mp3"></source><source src="audio\huit.ogg"></source></audio>
 	<audio id="59"><source src="audio\cinquante-neuf.mp3"></source><source src="audio\neuf.ogg"></source></audio>
 	<audio id="60"><source src="audio\soixante.mp3"></source><source src="audio\dix.ogg"></source></audio>
 	<audio id="61"><source src="audio\soixante-et-un.mp3"></source><source src="audio\un.ogg"></source></audio>
@@ -75,7 +75,7 @@
 	<audio id="65"><source src="audio\soixante-cinq.mp3"></source><source src="audio\cinq.ogg"></source></audio>
 	<audio id="66"><source src="audio\soixante-six.mp3"></source><source src="audio\six.ogg"></source></audio>
 	<audio id="67"><source src="audio\soixante-sept.mp3"></source><source src="audio\sept.ogg"></source></audio>
-	<audio id="68"><source src="audio\soixante-huit.mp3"></source><source src="="audio\huit.ogg"></source></audio>
+	<audio id="68"><source src="audio\soixante-huit.mp3"></source><source src="audio\huit.ogg"></source></audio>
 	<audio id="69"><source src="audio\soixante-neuf.mp3"></source><source src="audio\neuf.ogg"></source></audio>
 	<audio id="70"><source src="audio\soixante-dix.mp3"></source><source src="audio\dix.ogg"></source></audio>
 	<audio id="71"><source src="audio\soixante-et-onze.mp3"></source><source src="audio\un.ogg"></source></audio>
@@ -85,7 +85,7 @@
 	<audio id="75"><source src="audio\soixante-quinze.mp3"></source><source src="audio\cinq.ogg"></source></audio>
 	<audio id="76"><source src="audio\soixante-seize.mp3"></source><source src="audio\six.ogg"></source></audio>
 	<audio id="77"><source src="audio\soixante-dix-sept.mp3"></source><source src="audio\sept.ogg"></source></audio>
-	<audio id="78"><source src="audio\soixante-dix-huit.mp3"></source><source src="="audio\huit.ogg"></source></audio>
+	<audio id="78"><source src="audio\soixante-dix-huit.mp3"></source><source src="audio\huit.ogg"></source></audio>
 	<audio id="79"><source src="audio\soixante-dix-neuf.mp3"></source><source src="audio\neuf.ogg"></source></audio>
 	<audio id="80"><source src="audio\quatre-vingts.mp3"></source><source src="audio\dix.ogg"></source></audio>
 	<audio id="81"><source src="audio\quatre-vingt-un.mp3"></source><source src="audio\un.ogg"></source></audio>
@@ -105,7 +105,7 @@
 	<audio id="95"><source src="audio\quatre-vingt-quinze.mp3"></source><source src="audio\cinq.ogg"></source></audio>
 	<audio id="96"><source src="audio\quatre-vingt-seize.mp3"></source><source src="audio\six.ogg"></source></audio>
 	<audio id="97"><source src="audio\quatre-vingt-dix-sept.mp3"></source><source src="audio\sept.ogg"></source></audio>
-	<audio id="98"><source src="audio\quatre-vingt-dix-huit.mp3"></source><source src="="audio\huit.ogg"></source></audio>
+	<audio id="98"><source src="audio\quatre-vingt-dix-huit.mp3"></source><source src="audio\huit.ogg"></source></audio>
 	<audio id="99"><source src="audio\quatre-vingt-dix-neuf.mp3"></source><source src="audio\neuf.ogg"></source></audio>
 	<audio id="100"><source src="audio\cent.mp3"></source><source src="audio\dix.ogg"></source></audio>
 	<audio id="bonnereponse"><source src="audio\bonnereponse.mp3"></source><source src="francais\audio\bonnereponse.ogg"></source></audio>
@@ -131,7 +131,7 @@
 			<div class="input-group-prepend">
 				<button class="btn btn-info consignes2" type="button" id="inputGroupFileAddon03">Saisir la réponse :</button>
 			</div>
-			<input type="text" autocomplete="off" id="reponsee1" class="form-control" placeholder="" style="display:" aria-label="Recipient's username" aria-describedby="button-addon2">
+			<input type="text" autocomplete="off" id="reponsee1" class="form-control" placeholder="" style="display:block" aria-label="Recipient's username" aria-describedby="button-addon2">
 			<input type="text" autocomplete="off" id="reponsee2" class="form-control" placeholder="" style="display:none" aria-label="Recipient's username" aria-describedby="button-addon2">
 			<input type="text" autocomplete="off" id="reponsee3" class="form-control" placeholder="" style="display:none" aria-label="Recipient's username" aria-describedby="button-addon2">
 			<input type="text" autocomplete="off" id="reponsee4" class="form-control" placeholder="" style="display:none" aria-label="Recipient's username" aria-describedby="button-addon2">

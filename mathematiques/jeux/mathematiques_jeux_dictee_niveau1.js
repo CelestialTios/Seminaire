@@ -64,9 +64,9 @@ player.play();
 }
 
 function jecoute()
-		{
-		document.getElementById("correction").style.display= "";
-		document.getElementById("tour").innerHTML = "Exercice n°"+tour+" sur 10";
+{
+		//document.getElementById("correction").style.display= "";
+		//document.getElementById("tour").innerHTML = "Exercice n°"+tour+" sur 10";
 		switch (tour)
 		{
 			case 1 :
@@ -759,8 +759,8 @@ tour++;
 
 function resultat()
 {
-			document.getElementById("note").style.display = "";	
-			document.getElementById("noteimage").style.display = "";			
+	document.getElementById("note").style.display = "";	
+	document.getElementById("noteimage").style.display = "";			
 
 	switch (note)
 			{

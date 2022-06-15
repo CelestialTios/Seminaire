@@ -603,6 +603,10 @@ player = document.getElementById("100");
 player.play();
 }
 
+function fMot(id){
+	player = document.getElementById(id);
+	player.play();
+}
 
 function jecoute()
 		{
