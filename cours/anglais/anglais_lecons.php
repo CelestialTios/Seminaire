@@ -1,16 +1,6 @@
-<html> 
-	<title>Classe de CE1</title>
-	<link rel="icon" href="../img/favico.png" />
-	<link href="../css/custom.css" rel="stylesheet">
-	<link href="../css/all.css" rel="stylesheet">
-	<script src="../js/popper.min.js"></script>
-	<script src="../js/jquery.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<meta http-equiv="refresh" content="300" />
-	<body>
-		<?php
-			include 'menu.php';
-		?>
+<?php
+	include "../../components/menu.php";
+?>
 		
 		<nav aria-label="breadcrum">
 			<ol class="breadcrumb bg-primary">
@@ -22,19 +12,19 @@
 		  <tbody>
 			<tr class="bg-primary text-white text-center table-fontlarge">
 			  <td>Food</td>
-			  <td><a href="food2.php" class="col table-fontlarge"><b style="font-family:perso"></b>click here</a></td>
+			  <td><a href="./food/food.php" class="col table-fontlarge"><b style="font-family:perso"></b>click here</a></td>
 			</tr>
 			<tr class="bg-primary text-white text-center table-fontlarge">
 			  <td>Farm animals</td>
-			  <td><a href="farm2.php" class="col table-fontlarge"><b style="font-family:perso"></b>click here</a></td>
+			  <td><a href="./farm/farm.php" class="col table-fontlarge"><b style="font-family:perso"></b>click here</a></td>
 			</tr>
 			<tr class="bg-primary text-white text-center table-fontlarge">
 			  <td>Clothes and accessories</td>
-			  <td><a href="clothes2.php" class="col table-fontlarge"><b style="font-family:perso">click here</b></a></td>
+			  <td><a href="./clothes/clothes.php" class="col table-fontlarge"><b style="font-family:perso">click here</b></a></td>
 			</tr>
 			  <tr class="bg-primary text-white text-center table-fontlarge">
 			  <td>Two little witches</td>
-			  <td><a href="witches.php" class="col table-fontlarge"><b style="font-family:perso">click here</b></a></td>
+			  <td><a href="./witches/witches.php" class="col table-fontlarge"><b style="font-family:perso">click here</b></a></td>
 			</tr>
 		  </tbody>
 		</table>

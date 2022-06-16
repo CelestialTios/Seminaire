@@ -1,25 +1,12 @@
-<html> 
-	<title>Classe de CE1</title>
-	<link rel="icon" href="../img/favico.png" />
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/all.css" rel="stylesheet">
-	<script src="js/popper.min.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<meta http-equiv="refresh" content="300" />
-	<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+<?php include '../../../../../../components/menu.php' ?>
+<style>
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 </style>
-	<body>
-		<?php
-			include 'menu.php';
-		?>
-		
-	<img src="francais/LDS_01.jpg" style="width:50%;" style="height:50%;" class="center">
+	<img src="../img/LDS_01.jpg" style="width:50%;" style="height:50%;" class="center">
 	
 	</body>
 	<script type="text/javascript">

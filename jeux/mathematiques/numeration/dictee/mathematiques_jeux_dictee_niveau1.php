@@ -8,7 +8,7 @@
 	<script src="../../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="mathematiques_jeux_dictee_niveau1.js"></script>
 
-	<audio id="1"><source src="audio\un.mp3"></source><source src="audio\un.ogg"></source></audio>
+	<audio id="1"><source src="<?php echo "..".DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR."audio".DIRECTORY_SEPARATOR."un.mp3"?>"></source><source src="audio\un.ogg"></source></audio>
 	<audio id="2"><source src="audio\deux.mp3"></source><source src="audio\deux.ogg"></source></audio>
 	<audio id="3"><source src="audio\trois.mp3"></source><source src="audio\trois.ogg"></source></audio>
 	<audio id="4"><source src="audio\quatre.mp3"></source><source src="audio\quatre.ogg"></source></audio>

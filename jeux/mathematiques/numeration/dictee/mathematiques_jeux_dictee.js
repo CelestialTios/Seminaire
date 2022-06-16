@@ -15,7 +15,6 @@ window.addEventListener("DOMContentLoaded", function(){
  * @param {string} id 
  */
 function numberSound(id){
-    console.log("sound" + id);
     player = document.getElementById(id);
     //Load and play sound
     player.play();
@@ -42,7 +41,6 @@ function correction()
     document.getElementById("validation").style.display= "none";            // Tout le temps présente, non nécessaire de faire de réitérer
     document.getElementById("jecoute").style.display= "";                   // Tout le temps présente, non nécessaire de faire de réitérer
     value = reponse.value;                                                  // Change selon le tour // Peut être mis que comme un seul input qu'on nettoie
-    console.log(value);
     document.getElementById("reponse").value = "";                          // Nettoyage de l'input
     let s = "";
     if(value==response[tour-1])

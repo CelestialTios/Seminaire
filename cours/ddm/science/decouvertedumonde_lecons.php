@@ -1,16 +1,4 @@
-<html> 
-	<title>Classe de CE1</title>
-	<link rel="icon" href="../img/favico.png" />
-	<link href="../css/custom.css" rel="stylesheet">
-	<link href="../css/all.css" rel="stylesheet">
-	<script src="../js/popper.min.js"></script>
-	<script src="../js/jquery.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<meta http-equiv="refresh" content="300" />
-	<body>
-		<?php
-			include 'menu.php';
-		?>
+<?php include '../../../components/menu.php' ?>
 		
 		<nav aria-label="breadcrum">
 			<ol class="breadcrumb bg-success">
@@ -22,11 +10,11 @@
 		  <tbody>
 		  <tr class="bg-success text-white text-center table-fontlarge">
 			  <td>Découverte du monde 1</td>
-			  <td><a href="notreplanete.php" class="col table-fontlarge"><b style="font-family:perso">Notre planète</b></a></td>
+			  <td><a href="./planete/notreplanete.php" class="col table-fontlarge"><b style="font-family:perso">Notre planète</b></a></td>
 			</tr>
 			<tr class="bg-success text-white text-center table-fontlarge">
 			  <td>Découverte du monde 2</td>
-			  <td><a href="continentsetoceans.php" class="col table-fontlarge"><b style="font-family:perso">Les continents et les océans</b></a></td>
+			  <td><a href="./ocean/continentsetoceans.php" class="col table-fontlarge"><b style="font-family:perso">Les continents et les océans</b></a></td>
 			</tr>
 		  </tbody>
 		</table>

@@ -1,23 +1,7 @@
-<html> 
-	<title>Classe de CE1</title>
-	<link rel="icon" href="../img/favico.png" />
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/all.css" rel="stylesheet">
-	<link href="css/hourglass.css" rel="stylesheet" />
-	<script src="js/popper.min.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<meta http-equiv="refresh" content="300" />
-	<style>
-
-</style>
-	<body>
-		<?php
-			include 'menu.php';
-		?>
+<?php include '../../../../../../components/menu.php' ?>
 		<table class="table table-borderless bg-#212529">
 			<tbody>
-				<td><img src="francais/GDL_26.jpg" style="width:100%;" class="center"></td>
+				<td><img src="../img/GDL_26.jpg" style="width:100%;" class="center"></td>
 				<td>
 					<div id="container">
 						<div id="glass-container">
