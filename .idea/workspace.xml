@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67c0c6d4-3bf7-4253-b34c-5c4e6968a32f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pagedeconnexion/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/pagedeconnexion/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagedeconnexion/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/pagedeconnexion/verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos/photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/photos/photos.php" afterDir="false" />
-    </list>
+    <list default="true" id="67c0c6d4-3bf7-4253-b34c-5c4e6968a32f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655364988383</updated>
-      <workItem from="1655364989858" duration="18833000" />
+      <workItem from="1655364989858" duration="19225000" />
     </task>
     <servers />
   </component>
