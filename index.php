@@ -1,11 +1,11 @@
 <html> 
 	<title>Classe de CE1</title>
-	<link rel="icon" href="img/favico.png" />
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/all.css" rel="stylesheet">
-	<script src="js/popper.min.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<link rel="icon" href="./Content/img/favico.png" />
+	<link href="./Content/css/custom.css" rel="stylesheet">
+	<link href="./Content/css/all.css" rel="stylesheet">
+	<script src="./Content/js/popper.min.js"></script>
+	<script src="./Content/js/jquery.min.js"></script>
+	<script src="./Content/js/bootstrap.min.js"></script>
 	<body>
 <title>accueil</title>
 
@@ -86,14 +86,10 @@ function initComparisons() {
     }
   }
 }
-
-
 </script>
 </head>
 				
-<?php 
-include 'menu.php'; 
-?>
+<?php include "./components/menu.php"; ?>
 
 <div><span id="conseil" style="font-size:16px"></span>
     <nav aria-label="breadcrum">

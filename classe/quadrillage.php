@@ -9,8 +9,8 @@
 	<meta http-equiv="refresh" content="300">
 	<body>
 
-				<?php
-			include 'menu3.php';
+		<?php
+			include "../components/menu.php";
 		?>
 
 		
