@@ -41,7 +41,7 @@
 			<div class="input-group-prepend">
 				<button class="btn btn-info consignes2" type="button" id="inputGroupFileAddon03">Saisir la réponse :</button>
 			</div>
-			<input type="text" autocomplete="off" id="reponsee1" class="form-control" placeholder="" style="display:" aria-label="Recipient's username" aria-describedby="button-addon2">
+			<input type="text" autocomplete="off" id="reponsee1" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
 			<input type="text" autocomplete="off" id="reponsee2" class="form-control" placeholder="" style="display:none" aria-label="Recipient's username" aria-describedby="button-addon2">
 			<input type="text" autocomplete="off" id="reponsee3" class="form-control" placeholder="" style="display:none" aria-label="Recipient's username" aria-describedby="button-addon2">
 			<input type="text" autocomplete="off" id="reponsee4" class="form-control" placeholder="" style="display:none" aria-label="Recipient's username" aria-describedby="button-addon2">

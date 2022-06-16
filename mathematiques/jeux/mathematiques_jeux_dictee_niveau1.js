@@ -15,52 +15,62 @@ var lequelunite5=0;lequelunite6=0;lequelunite7=0;lequelunite8=0;lequelunite9=0;l
 function fMot1()
 {
 player = document.getElementById("1");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot2()
 {
 player = document.getElementById("2");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot3()
 {
 player = document.getElementById("3");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot4()
 {
 player = document.getElementById("4");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot5()
 {
 player = document.getElementById("5");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot6()
 {
 player = document.getElementById("6");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot7()
 {
 player = document.getElementById("7");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot8()
 {
 player = document.getElementById("8");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot9()
 {
 player = document.getElementById("9");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 function fMot10()
 {
 player = document.getElementById("10");
-player.play();
+var playPromise = player.play();
+console.log(playPromise);
 }
 
 function jecoute()

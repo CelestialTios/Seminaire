@@ -1,69 +1,51 @@
-//#region Configuration
-//Possible chiffres du jeu
-var chiffres = {
-    1 : "un",
-    2 : "deux",
-    3 : "trois",
-    4 : "quatre",
-    5 : "cinq",
-    6 : "six",
-    7 : "sept",
-    8 : "huit",
-    9 : "neuf",
-    10 : "dix"
-}
-var nbTour = 10;
-var flags = { 
-    1 : true, 2 : true, 3 : true, 4 : true, 5 : true, 6 : true, 7 : true, 8 : true, 9 : true, 10 : true
-}
-//#endregion
-
+var player;
+var reponse;
 var note = 0; 
 var tour = 1;
-var response = new Array(nbTour).fill(0);
+var response = new Array(data["nbtour"]).fill(0);
 
-//Get the audio element
-var player = document.getElementById("number-sound");
+window.addEventListener("DOMContentLoaded", function(){
+    //Get the audio element
+    reponse = document.getElementById("reponse");
+},false);
+
 
 /**
  * Get audio with the same id as parameter and play his sound
  * @param {string} id 
  */
 function numberSound(id){
-    //Get source and update it to id;
-	source1 = player.getElementsByClassName("source1");
-	source2 = player.getElementsByClassName("source2");
-    source1.src = `audio\\${chiffres[id]}.mp3`;
-    source2.src = `audio\\${chiffres[id]}.ogg`;
+    console.log("sound" + id);
+    player = document.getElementById(id);
     //Load and play sound
-    player.load();
-	player.play();
+    player.play();
 }
-
 
 function jecoute()
 {
-		document.getElementById("tour").innerHTML = "Exercice n°"+tour+" sur 10";
-        document.getElementById("correction").style.display= "";
-        document.getElementById("reponse").focus()
-        if (flags[tour])
+        document.getElementById("tour").innerHTML = "Exercice n°"+tour+" sur 10";
+        document.getElementById("validation").style.display= "";
+        document.getElementById("correction").style.display= "none";
+        reponse.focus()
+        if (data['flags'][tour])
         {
             let lettre = DiffBefore(); 
-            response[tour-1] = chiffres[lettre];
-            flags[tour] = false;
+            response[tour-1] = data['chiffres'][lettre];
+            data['flags'][tour] = false;
         }
-        numberSound(getKeyByValue(chiffres, response[tour-1]));
+        numberSound(getKeyByValue(data['chiffres'], response[tour-1]));
 }
 
 
 function correction()
 {
-    document.getElementById("correction").style.display= "none";            // Tout le temps présente, non nécessaire de faire de réitérer
+    document.getElementById("validation").style.display= "none";            // Tout le temps présente, non nécessaire de faire de réitérer
     document.getElementById("jecoute").style.display= "";                   // Tout le temps présente, non nécessaire de faire de réitérer
-    reponse = document.getElementById("reponse").value;                     // Change selon le tour // Peut être mis que comme un seul input qu'on nettoie
+    value = reponse.value;                                                  // Change selon le tour // Peut être mis que comme un seul input qu'on nettoie
+    console.log(value);
     document.getElementById("reponse").value = "";                          // Nettoyage de l'input
     let s = "";
-    if(reponse==response[tour-1])
+    if(value==response[tour-1])
     {
         player = document.getElementById("bonnereponse");
         player.play();
@@ -75,12 +57,12 @@ function correction()
     {
         player = document.getElementById("mauvaisereponse");
         player.play();
-        s = `Erreur, il fallait écrire : ${response[tour]}`;
+        s = `Erreur, il fallait écrire : ${response[tour-1]}`;
     }
     document.getElementById("correction").style.display= "";
     document.getElementById("correction").innerHTML = s;
 
-    if( tour == nbTour) { resultat(); } 
+    if( tour == data["nbTour"]) { resultat(); } 
     tour++;
 
 
@@ -89,14 +71,14 @@ function correction()
 
 function resultat()
 {
-	var noteElem = document.getElementById("note");
-	document.getElementById("noteimage").style.display = "";
-	var imageElem = document.getElementById("note-image");
+    var noteElem = document.getElementById("note");
+    document.getElementById("noteimage").style.display = "";
+    var imageElem = document.getElementById("note-image");
     noteElem.style.display = "";
 
-    var message = `Note : ${note} sur ${nbTour}<br>`;
+    var message = `Note : ${note} sur ${data["nbTour"]}<br>`;
 
-	switch (note)
+    switch (note)
     {
         case 0 :
         case 1 : 
@@ -149,10 +131,10 @@ function getKeyByValue(object, value)
 
 
 function DiffBefore(){
-    let lettre = Math.floor(Math.random()*10)+1;
+    let lettre = Math.floor(Math.random() * Object.keys(data['chiffres']).length)+1;
     while( response.includes(lettre) )
     {
-        lettre = Math.floor(Math.random()*10)+1; 
+        lettre = Math.floor(Math.random() * Object.keys(data['chiffres']).length)+1; 
     }
     return lettre;
 }
