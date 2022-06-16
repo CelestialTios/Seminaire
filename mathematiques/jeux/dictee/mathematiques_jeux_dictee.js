@@ -22,13 +22,14 @@ var note = 0;
 var tour = 1;
 var response = new Array(nbTour).fill(0);
 
+//Get the audio element
+var player = document.getElementById("number-sound");
+
 /**
  * Get audio with the same id as parameter and play his sound
  * @param {string} id 
  */
 function numberSound(id){
-    //Get the audio element
-	player = document.getElementById("number-sound");
     //Get source and update it to id;
 	source1 = player.getElementsByClassName("source1");
 	source2 = player.getElementsByClassName("source2");
