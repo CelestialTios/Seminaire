@@ -99,7 +99,7 @@
 
     <?php
       //scan du repertoire contenant les photos
-      $list=scandir("/home/camfkox/photos/");
+      $list=scandir("../photos/");
       $nb_photos=0;
       $incplusun=0;
       $liste_photos=[];
@@ -149,7 +149,7 @@
 			echo('<source src="' . $liste_photos[$inc] . '" type="video/mp4">');
 			echo('</video>');
 		} else {
-			echo('<img class="demo cursor" src="' . $liste_photos[$inc] . '" style="width: 100px ; height: 80px ; object-fit: cover; border: 1px solid grey; "   onclick="currentSlide('. $incplusun .')">');
+			echo('<img class="demo cursor" src="' . $liste_photos[$inc] . '" loading=lazy style="width: 100px ; height: 80px ; object-fit: cover; border: 1px solid grey; "   onclick="currentSlide('. $incplusun .')">');
 		}
 
         echo('</div>');
