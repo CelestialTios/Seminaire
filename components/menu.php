@@ -1,8 +1,8 @@
-			<style>
-	body {
-	  background-image: url('img/background.png');
-	  background-size: 100%;
-	}
+	<style>
+		body {
+			background-image: url('img/background.png');
+			background-size: 100%;
+		}
 	</style>
 		
 		<script type="text/javascript">
