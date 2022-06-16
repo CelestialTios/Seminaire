@@ -30,7 +30,7 @@
 		<br>
 	<div class="page" id="page">
 		<div class="presentation">
-			<div id="question" class="reponserange"" style="display:none">
+			<div id="question" class="reponserange" style="display:none">
 			<button class="btn btn-success consignes" type="button" id="consigne">Calculs en arbre</button><br><br>
 			<button class="btn btn-info consignes2" type="button" style="width:40%"><div id="nbr1" class="question2 text-white font-weight-bold"></div></a></button>
 			<button class="btn btn-success consignes" type="button" style="width:10%">+</button>

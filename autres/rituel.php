@@ -12,7 +12,7 @@
 			include 'menu2.php';
 		?>
 		
-					<style>
+		<style>
 
 				h1{
 					color: blue;
@@ -61,6 +61,7 @@
 					top: 12.2em;
 					position:absolute;				
 				}
+				
 				d1{
 					color:black;
 					font-size: 26px;
@@ -78,50 +79,50 @@
 					top: 19.5em;
 				}
 				
-@media only screen and (max-width: 1500px) {
-h1 {
-font-size: 28px;
-left: 6em;
-top: 3em;
-padding-bottom: 10px;
-}
-h2 {
-font-size: 28px;
-left: 6em;
-top: 5.1em;
-}
-h3 {
-font-size: 28px;
-left: 6em;
-top: 7.2em;
-}
-h4 {
-font-size: 28px;
-left: 6em;
-top: 9.2em;
-}
-h5 {
-font-size: 28px;
-left: 6em;
-top: 13.2em;
-border-bottom: 4px solid rgb(255,51,51);
-padding-bottom: 10px;
-text-decoration-color: red;
-}
-d1 {
-font-size: 27px;
-top: 3.2em;
-}
-d2 {
-font-size: 27px;
-top: 14em;
-}
+			@media only screen and (max-width: 1500px) {
+			h1 {
+			font-size: 28px;
+			left: 6em;
+			top: 3em;
+			padding-bottom: 10px;
+			}
+			h2 {
+			font-size: 28px;
+			left: 6em;
+			top: 5.1em;
+			}
+			h3 {
+			font-size: 28px;
+			left: 6em;
+			top: 7.2em;
+			}
+			h4 {
+			font-size: 28px;
+			left: 6em;
+			top: 9.2em;
+			}
+			h5 {
+			font-size: 28px;
+			left: 6em;
+			top: 13.2em;
+			border-bottom: 4px solid rgb(255,51,51);
+			padding-bottom: 10px;
+			text-decoration-color: red;
+			}
+			d1 {
+			font-size: 27px;
+			top: 3.2em;
+			}
+			d2 {
+			font-size: 27px;
+			top: 14em;
+			}
 
-body {
-        font-size: 75%;
-  }
+			body {
+				font-size: 75%;
+			}
   
-				</style>
+		</style>
 				
 		<div>
 		<d1>Devoirs :</d1>
@@ -133,7 +134,6 @@ body {
 		<h4>    et 764 - 439 =</h4>
 		<h5> ...........................................................................................</h5>
 		<br>
-
 
 	
 </div>

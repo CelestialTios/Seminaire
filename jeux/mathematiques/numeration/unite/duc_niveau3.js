@@ -121,7 +121,7 @@ function correction1()
 			break;
 			
 			case 3 :
-			document.getElementById("correction"3).style.display = "";
+			document.getElementById("correction3").style.display = "";
 			var juste7=Math.floor(nbr3/100);juste8=Math.floor((nbr3-100*Math.floor(nbr3/100))/10);juste9=nbr3-100*Math.floor(nbr3/100)-10*Math.floor((nbr3-100*Math.floor(nbr3/100))/10);
 			rep7 = document.getElementById("reponse7").value;
 			rep8 = document.getElementById("reponse8").value;
