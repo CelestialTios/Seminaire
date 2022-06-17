@@ -1,5 +1,6 @@
  <?php include dirname(__FILE__).'/components/menu.php' ?>
 
+ <!--
   <script>
     function initComparisons() {
       var x, i;
@@ -78,21 +79,6 @@
       }
     }
   </script>
-
-<div><span id="conseil" style="font-size:16px"></span>
-    <nav aria-label="breadcrum">
-        <ol class="breadcrumb bg-info">
-            <li class="breadcrumb-item active text-white font-weight-bold" aria-current="page">Bienvenue à toi sur Pot de colle !</li>
-        </ol>
-    <div class="img-comp-container">
-        <div class="img-comp-img">
-            <img src="<?=$_ENV['ROOT']?>Content/img/classe2.JPG" width="980" height="600">
-        </div>
-        <div class="img-comp-img img-comp-overlay">
-            <img src="<?=$_ENV['ROOT']?>Content/img/classe1.JPG" width="980" height="600">
-        </div>
-    </div>
-</body>		
 		
 	<script>
     /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
@@ -103,6 +89,7 @@
 			$('[data-toggle="tooltip"]').tooltip();   
 		});
 	</script>
+  -->
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166118568-1"></script>

@@ -81,32 +81,32 @@ function resultat()
         case 0 :
         case 1 : 
             message += `Trop difficile pour toi`;
-            imageElem.src = "img/dur.png";
+            imageElem.src = "/Seminaire/Content/img/dur.png";
             break;
         
         case 2 : 
         case 3 :
             message += "Trop difficile pour toi";
-            imageElem.src = "img/effort.png";
+            imageElem.src = "/Seminaire/Content/img/effort.png";
             break;
         
         case 4 : 
             message += "Trop difficile pour toi";
-            imageElem.src = "img/bien.png";
+            imageElem.src = "/Seminaire/Content/img/bien.png";
             break;
         
         case 5 :
         case 6 :
         case 7 :  
             message += "Continue tes efforts";
-            imageElem.src = "img/champion.png";
+            imageElem.src = "/Seminaire/Content/img/champion.png";
             break;
         
         case 8 :
         case 9 :
         case 10 : 
             message += "Bravo !";
-            imageElem.src = "img/champion.png";
+            imageElem.src = "/Seminaire/Content/img/champion.png";
             break;
         
     }
