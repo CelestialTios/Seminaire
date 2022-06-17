@@ -1,0 +1,363 @@
+@use '../abstracts' as *;
+
+//Grid number max =>
+$numberGridMax : 20;
+
+
+// Exemple
+// Si on veut une grid de 12
+// =>
+
+// => Mobile
+// x-grid-12
+// x-grid-12-fr
+
+// => Tablette
+// x-grid-12-m
+// x-grid-12-fr-m
+
+// => Desktop
+// x-grid-12-l
+// x-grid-12-fr-l
+
+// Pour les column =>
+//cl-1-12
+//cl-1-12-m
+//cl-1-12-l
+
+// cl-1-last
+
+// Pour les rows =>
+//rw-1-12
+//rw-1-12-m
+//rw-1-12-l
+
+// rw-1-last
+
+// ----------------------- grid-basic base ----------------------- //
+
+@for $i from 1 through $numberGridMax {
+    .x-grid-#{$i} {
+        display: grid;
+        grid-template-columns: repeat(#{$i}, calc(100% / #{$i}));
+        grid-template-rows: repeat(#{$i}, calc(100% / #{$i}));
+    }
+
+    .x-grid-#{$i}-fr {
+        display: grid;
+        grid-template-columns: repeat(#{$i}, #{$i}fr);
+        grid-template-rows: repeat(#{$i}, #{$i}fr);
+    }
+
+    .x-grid-#{$i}-fr-auto {
+        display: grid;
+        grid-template-columns: repeat(#{$i}, #{$i}fr);
+        grid-template-rows: auto;
+    }
+
+
+    @include breakpoints-mobile(petit) {
+        .x-grid-#{$i}-s {
+            display: grid;
+            grid-template-columns: repeat(#{$i}, calc(100% / #{$i}));
+            grid-template-rows: repeat(#{$i}, calc(100% / #{$i}));
+        }
+    }
+
+    @include breakpoints-mobile(medium) {
+        .x-grid-#{$i}-sm {
+            display: grid;
+            grid-template-columns: repeat(#{$i}, calc(100% / #{$i}));
+            grid-template-rows: repeat(#{$i}, calc(100% / #{$i}));
+        }
+    }
+
+    @include breakpoints-desktop(petite-tablette) {
+        .x-grid-#{$i}-m {
+            display: grid;
+            grid-template-columns: repeat(#{$i}, calc(100% / #{$i}));
+            grid-template-rows: repeat(#{$i}, calc(100% / #{$i}));
+        }
+    }
+
+    @include breakpoints-desktop(tablette) {
+        .x-grid-#{$i}-ml {
+            display: grid;
+            grid-template-columns: repeat(#{$i}, calc(100% / #{$i}));
+            grid-template-rows: repeat(#{$i}, calc(100% / #{$i}));
+        }
+    }
+
+    @include breakpoints-desktop(desktop) {
+        .x-grid-#{$i}-l {
+            display: grid;
+            grid-template-columns: repeat(#{$i}, calc(100% / #{$i}));
+            grid-template-rows: repeat(#{$i}, calc(100% / #{$i}));
+        }
+    }
+
+    @include breakpoints-desktop(xl-desktop) {
+        .x-grid-#{$i}-xl {
+            display: grid;
+            grid-template-columns: repeat(#{$i}, calc(100% / #{$i}));
+            grid-template-rows: repeat(#{$i}, calc(100% / #{$i}));
+        }
+    }
+
+    // ----------------------- Grid-column ----------------------- //
+    @for $x from 1 through $numberGridMax+1 {
+        .cl-1-#{$x} {
+            grid-column: 1/#{$x};
+        }
+
+        @for $y from 1 through $numberGridMax+1 {
+            @if $y < $x {
+                .cl-#{$y}-#{$x} {
+                    grid-column: #{$y}/#{$x};
+                }
+            }
+
+            .cl-#{$y}-last {
+                grid-column: #{$y}/-1;
+            }
+        }
+
+        @include breakpoints-mobile(petit) {
+            .cl-1-#{$x}-s {
+                grid-column: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .cl-#{$y}-#{$x}-s {
+                        grid-column: #{$y}/#{$x};
+                    }
+                }
+
+                .cl-#{$y}-last-s {
+                    grid-column: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-mobile(medium) {
+            .cl-1-#{$x}-sm {
+                grid-column: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .cl-#{$y}-#{$x}-sm {
+                        grid-column: #{$y}/#{$x};
+                    }
+                }
+
+                .cl-#{$y}-last-sm {
+                    grid-column: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(petite-tablette) {
+            .cl-1-#{$x}-m {
+                grid-column: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .cl-#{$y}-#{$x}-m {
+                        grid-column: #{$y}/#{$x};
+                    }
+                }
+
+                .cl-#{$y}-last-m {
+                    grid-column: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(tablette) {
+            .cl-1-#{$x}-mm {
+                grid-column: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .cl-#{$y}-#{$x}-ml {
+                        grid-column: #{$y}/#{$x};
+                    }
+                }
+
+                .cl-#{$y}-last-ml {
+                    grid-column: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(desktop) {
+            .cl-1-#{$x}-l {
+                grid-column: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .cl-#{$y}-#{$x}-l {
+                        grid-column: #{$y}/#{$x};
+                    }
+                }
+
+                .cl-#{$y}-last-l {
+                    grid-column: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(xl-desktop) {
+            .cl-1-#{$x}-xl {
+                grid-column: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .cl-#{$y}-#{$x}-xl {
+                        grid-column: #{$y}/#{$x};
+                    }
+                }
+
+                .cl-#{$y}-last-xl {
+                    grid-column: #{$y}/-1;
+                }
+            }
+        }
+
+    }
+
+    // ----------------------- Grid-Row ----------------------- //
+    @for $x from 1 through $numberGridMax+1 {
+        .rw-1-#{$x} {
+            grid-row: 1/#{$x};
+        }
+
+        @for $y from 1 through $numberGridMax+1 {
+            @if $y < $x {
+                .rw-#{$y}-#{$x} {
+                    grid-row: #{$y}/#{$x};
+                }
+            }
+
+            .rw-#{$y}-last {
+                grid-row: #{$y}/-1;
+            }
+        }
+
+        @include breakpoints-mobile(petit) {
+            .rw-1-#{$x}-s {
+                grid-row: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .rw-#{$y}-#{$x}-s {
+                        grid-row: #{$y}/#{$x};
+                    }
+                }
+
+                .rw-#{$y}-last-s {
+                    grid-row: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-mobile(medium) {
+            .rw-1-#{$x}-sm {
+                grid-row: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .rw-#{$y}-#{$x}-sm {
+                        grid-row: #{$y}/#{$x};
+                    }
+                }
+
+                .rw-#{$y}-last-sm {
+                    grid-row: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(petite-tablette) {
+            .rw-1-#{$x}-m {
+                grid-row: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .rw-#{$y}-#{$x}-m {
+                        grid-row: #{$y}/#{$x};
+                    }
+                }
+
+                .rw-#{$y}-last-m {
+                    grid-row: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(tablette) {
+            .rw-1-#{$x}-ml {
+                grid-row: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .rw-#{$y}-#{$x}-ml {
+                        grid-row: #{$y}/#{$x};
+                    }
+                }
+
+                .rw-#{$y}-last-ml {
+                    grid-row: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(desktop) {
+            .rw-1-#{$x}-l {
+                grid-row: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .rw-#{$y}-#{$x}-l {
+                        grid-row: #{$y}/#{$x};
+                    }
+                }
+
+                .rw-#{$y}-last-l {
+                    grid-row: #{$y}/-1;
+                }
+            }
+        }
+
+        @include breakpoints-desktop(xl-desktop) {
+            .rw-1-#{$x}-xl {
+                grid-row: 1/#{$x};
+            }
+
+            @for $y from 1 through $numberGridMax+1 {
+                @if $y < $x {
+                    .rw-#{$y}-#{$x}-xl {
+                        grid-row: #{$y}/#{$x};
+                    }
+                }
+
+                .rw-#{$y}-last-xl {
+                    grid-row: #{$y}/-1;
+                }
+            }
+        }
+
+    }
+
+}

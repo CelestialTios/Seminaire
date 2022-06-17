@@ -1,0 +1,183 @@
+@use '../abstracts'as *;
+
+.nav-header {
+    .wrapper-logo {
+        padding: .75em;
+        margin-bottom: 2em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            display: flex;
+            width: 50%;
+            &:first-child {
+                justify-content: flex-start;
+            }
+            &:nth-child(2) {
+                justify-content: flex-end;
+            }
+            img, svg {
+                object-fit: cover;
+                width: 60%;
+            }
+        }
+    }
+}
+.navbar-mobile {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    ol  {
+        border-radius: 2em 2em 0 0;
+        padding: 1em .5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background: #FBF9F9;
+        li {
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            height: 100%;
+            &:nth-child(2) {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.nav-matieres {
+    width: 100%;
+    height: 100vh;
+    padding-block: 2em .5em;
+    ol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.buttons-nav {
+
+    height: 10vh;
+
+    @include breakpoints-mobile(medium) {
+        height: 11vh;
+    }
+    &:first-child {
+        @include buttons-nav($bleu-maths, $blanc);
+        transition: .3s ease-in;
+        margin-bottom: 1em;
+        &:hover, &:active {
+            img {
+                display: none;
+            }
+        }
+        &:hover {
+            background-color: $bleu-maths-hover;
+        }
+        &:active {
+            background-color: $bleu-maths-pressed;
+        }
+    }
+
+    &:nth-child(2) {
+        @include buttons-nav($rouge-francais, $blanc);
+        transition: .3s ease-in;
+        margin-bottom: 1em;
+        &:hover, &:active {
+            img {
+                display: none;
+            }
+        }
+        &:hover {
+            background-color: $rouge-francais-hover;
+        }
+        &:active {
+            background-color: $rouge-francais-pressed;
+        }
+    }
+    &:nth-child(3) {
+        @include buttons-nav($violet-anglais, $blanc);
+        transition: .3s ease-in;
+        margin-bottom: 1em;
+        &:hover, &:active {
+            img {
+                display: none;
+            }
+        }
+        &:hover {
+            background-color: $violet-anglais-hover;
+        }
+        &:active {
+            background-color: $violet-anglais-pressed;
+        }
+    }
+    &:nth-child(4) {
+        @include buttons-nav($jaune-chorale, $blanc);
+        transition: .3s ease-in;
+        margin-bottom: 1em;
+        &:hover, &:active {
+            img {
+                display: none;
+            }
+        }
+        &:hover {
+            background-color: $jaune-chorale-hover;
+        }
+        &:active {
+            background-color: $jaune-chorale-pressed;
+        }
+    }
+    &:nth-child(5) {
+        @include buttons-nav($vert-decouverte, $blanc);
+        transition: .3s ease-in;
+        margin-bottom: 2em;
+        &:hover, &:active {
+            img {
+                display: none;
+            }
+        }
+        &:hover {
+            background-color: $vert-decouverte-hover;
+        }
+        &:active {
+            background-color: $vert-decouverte-pressed;
+        }
+    }
+    &:last-child {
+        @include buttons-nav($orange, $blanc);
+        transition: .3s ease-in;
+        transform: scale(1.1);
+        a {
+            font-size: 2.2em;
+        }
+    }
+
+    img {
+        border-radius: 1.563em;
+        /* 25px */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    a {
+        font-size: 1.5em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

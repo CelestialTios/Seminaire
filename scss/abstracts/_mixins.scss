@@ -1,0 +1,51 @@
+
+/*! MIXINS | Aline Hy | Veg & Co' */
+
+/* Fichier regroupant les composants qu'on va utiliser
+   ========================================================================== */
+/* CLASSE CTA : pour les boutons de navigation des matières, peut modifier dans les paramètres le background de couleur et la couleur du texte */
+@mixin buttons-nav($bg, $color) {
+    font-style: 1.5em;
+    width: 75%;
+    background: $bg;
+    color: $color;
+    border-radius: 1.563em; /* 25px */
+/*
+    @include breakpoints-mobile(petit) {
+    }
+    @include breakpoints-mobile(medium) {
+    }
+    @include breakpoints-desktop(petite-tablette) {
+    }
+    @include breakpoints-desktop(tablette) {
+    }
+    @include breakpoints-desktop(desktop) {
+    }
+    @include breakpoints-desktop(xl-desktop) {
+    } */
+}
+
+@mixin buttons-play($bg, $color) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    width: 90%;
+    background: $bg;
+    color: $color;
+    border-radius: 0.625em; /* 10px */
+/*
+    @include breakpoints-mobile(petit) {
+    }
+    @include breakpoints-mobile(medium) {
+    }
+    @include breakpoints-desktop(petite-tablette) {
+    }
+    @include breakpoints-desktop(tablette) {
+    }
+    @include breakpoints-desktop(desktop) {
+    }
+    @include breakpoints-desktop(xl-desktop) {
+    }
+    */
+}

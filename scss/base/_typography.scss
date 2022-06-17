@@ -1,0 +1,39 @@
+@use '../abstracts';
+
+body {
+    font-family: 'Nunito';
+}
+h1, .h1-title {
+    font-family: 'Fredoka One';
+    font-size: 2.2em !important;
+}
+h2, h3, .h2-title, .h3-title {
+    font-family: 'Nunito';
+    line-height: 1.1;
+    margin-top: 0;
+    font-weight: 800;
+}
+
+h2, .h2-title {
+    font-style: 1.5em !important;
+}
+
+h3, .h3-title {
+    font-style: 1.25em !important;
+}
+
+p, .paragraph-body {
+    margin-top: 0;
+    font-size: 1.0625em !important;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
+
+ul, ol, ol li, ul li {
+    color: abstracts.$noir;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}

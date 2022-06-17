@@ -1,7 +1,0 @@
-DirectoryIndex /photos/photos.php
-
-AuthUserFile /home/camfkox/photos/.htpasswd
-AuthGroupFile /dev/null
-AuthName "Accès Restreint"
-AuthType Basic
-require valid-user

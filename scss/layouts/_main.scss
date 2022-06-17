@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+body {
+    background-image: url('.././media/bg-chalkboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 4em;
+    @include breakpoints-desktop(desktop) {
+        padding-bottom: 0;
+    }
+}
