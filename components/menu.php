@@ -1,5 +1,5 @@
 <?php
-	$ROOT = "/~gommettes/Seminaire/";
+	$ROOT = "/Seminaire/";
 	$_ENV['ROOT'] = $ROOT;
 	$_SERVER['ROOT'] = $ROOT;
 ?>
