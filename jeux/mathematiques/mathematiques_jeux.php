@@ -1,15 +1,6 @@
-<html> 
-	<title>Classe de CE1</title>
-	<link rel="icon" href="img/favico.png" />
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/all.css" rel="stylesheet">
-	<script src="js/popper.min.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<body>
-		<?php
-			include 'menu.php';
-		?>
+<?php
+	include '../../components/menu.php';
+?>
 		
 		<nav aria-label="breadcrum">
 			<ol class="breadcrumb bg-info">
