@@ -8,11 +8,12 @@
 	<script src="../js/bootstrap.min.js"></script>
 	<meta http-equiv="refresh" content="300" />
 	<body>
-		<?php
-			include 'menu.php';
-		?>
-		
-		<nav aria-label="breadcrum">
+    <?php
+    include "../../components/menu.php";
+    ?>
+
+
+    <nav aria-label="breadcrum">
 			<ol class="breadcrumb bg-primary">
 				<li class="breadcrumb-item active text-white font-weight-bold titre" aria-current="page">Anglais - Jeux</li>
 			</ol>
