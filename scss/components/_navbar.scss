@@ -8,6 +8,29 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @include breakpoints-desktop(petite-tablette) {
+            padding: 1em 2em;
+        }
+        @include breakpoints-desktop(desktop) {
+            .container-logo {
+                width: 25%;
+            }
+            .container-link {
+                width: 75%;
+                ol {
+                    display: flex;
+                    justify-content: flex-end;
+                    li {
+                        margin-right: 5em;
+                        a {
+                            font-size: 1.5em;
+                            color: $blanc;
+                        }
+                    }
+                }
+            }
+        }
         div {
             display: flex;
             width: 50%;
@@ -17,9 +40,15 @@
             &:nth-child(2) {
                 justify-content: flex-end;
             }
+            img {
+                width: 60%;
+            }
+            svg {
+                width: 40%;
+            }
             img, svg {
                 object-fit: cover;
-                width: 60%;
+                height: 100%;
             }
         }
     }
@@ -60,30 +89,68 @@
     width: 100%;
     height: 100vh;
     padding-block: 2em .5em;
+
+    @include breakpoints-desktop(desktop) {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     ol {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        div {
+            width: 75%;
+        }
+
+        @include breakpoints-desktop(desktop) {
+            width: 100%;
+            height: 30%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            li:first-child {
+                margin-right: 1em;
+                width: 29%;
+            }
+            li:nth-child(2) {
+                margin-right: 1em;
+                width: 29%;
+            }
+            li:nth-child(3) {
+                margin-right: 1em;
+                width: 29%;
+            }
+            li:nth-child(4) {
+                margin-right: 1em;
+                width: 29%;
+            }
+            li:nth-child(5) {
+                margin-right: 1em;
+                width: 29%;
+            }
+            li:last-child {
+                width: 80%;
+            }
+        }
     }
 }
 
 .buttons-nav {
 
+    transition: all .3s ease;
     height: 10vh;
 
     @include breakpoints-mobile(medium) {
         height: 11vh;
     }
+    @include breakpoints-desktop(petite-tablette) {
+        height: 15vh;
+    }
     &:first-child {
         @include buttons-nav($bleu-maths, $blanc);
-        transition: .3s ease-in;
         margin-bottom: 1em;
-        &:hover, &:active {
-            img {
-                display: none;
-            }
-        }
         &:hover {
             background-color: $bleu-maths-hover;
         }
@@ -94,13 +161,8 @@
 
     &:nth-child(2) {
         @include buttons-nav($rouge-francais, $blanc);
-        transition: .3s ease-in;
         margin-bottom: 1em;
-        &:hover, &:active {
-            img {
-                display: none;
-            }
-        }
+
         &:hover {
             background-color: $rouge-francais-hover;
         }
@@ -110,13 +172,7 @@
     }
     &:nth-child(3) {
         @include buttons-nav($violet-anglais, $blanc);
-        transition: .3s ease-in;
         margin-bottom: 1em;
-        &:hover, &:active {
-            img {
-                display: none;
-            }
-        }
         &:hover {
             background-color: $violet-anglais-hover;
         }
@@ -126,12 +182,9 @@
     }
     &:nth-child(4) {
         @include buttons-nav($jaune-chorale, $blanc);
-        transition: .3s ease-in;
         margin-bottom: 1em;
-        &:hover, &:active {
-            img {
-                display: none;
-            }
+        @include breakpoints-desktop(desktop) {
+            margin-bottom: 3em;
         }
         &:hover {
             background-color: $jaune-chorale-hover;
@@ -142,12 +195,10 @@
     }
     &:nth-child(5) {
         @include buttons-nav($vert-decouverte, $blanc);
-        transition: .3s ease-in;
         margin-bottom: 2em;
-        &:hover, &:active {
-            img {
-                display: none;
-            }
+
+        @include breakpoints-desktop(desktop) {
+            margin-bottom: 3em;
         }
         &:hover {
             background-color: $vert-decouverte-hover;
@@ -160,9 +211,15 @@
         @include buttons-nav($orange, $blanc);
         transition: .3s ease-in;
         transform: scale(1.1);
+        @include breakpoints-desktop(petite-tablette) {
+            height: 10vh;
+        }
         a {
             font-size: 2.2em;
         }
+        @include breakpoints-desktop(petite-tablette) {
+        height: 10vh;
+    }
     }
 
     img {

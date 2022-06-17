@@ -5,6 +5,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 4em;
+    @include breakpoints-desktop(petite-tablette) {
+        padding-bottom: 14em;
+    }
     @include breakpoints-desktop(desktop) {
         padding-bottom: 0;
     }

@@ -41,17 +41,17 @@ $breakpoints-small: (
 }
 
 @include breakpoints-mobile(petite-tablette) {
-    .hide-mobile {
+    .x-hide-mobile {
         display: none !important;
     }
 }
 @include breakpoints-mobile(tablette) {
-    .hide-tablette {
+    .x-hide-tablette {
         display: none !important;
     }
 }
 @include breakpoints-desktop(desktop) {
-    .hide-desktop {
+    .x-hide-desktop {
         display: none !important;
     }
 }
