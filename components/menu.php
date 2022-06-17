@@ -50,7 +50,7 @@
 							<li><a class="h2-title" href="<?=$_ENV['ROOT']?>index.php">Accueil</a></li>
 							<li><a class="h2-title" href="<?=$_ENV['ROOT']?>photos/photos.php">Classes</a></li>
 							<!--TODO-->
-							<li><a class="h2-title" href="">Se connecter</a></li>
+							<li><a class="h2-title" href="<?=$_ENV['ROOT']?>pagedeconnexion/login.php">Se connecter</a></li>
 						</ol>
 					</nav>
 				</div>

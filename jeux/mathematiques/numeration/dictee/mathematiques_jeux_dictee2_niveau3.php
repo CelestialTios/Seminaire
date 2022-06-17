@@ -108,10 +108,6 @@
 	<audio id="bonnereponse"><source src="..\..\audio\bonnereponse.mp3"></source><source src="..\..\audio\bonnereponse.ogg"></source></audio>
 	<audio id="mauvaisereponse"><source src="..\..\audio\mauvaisereponse.mp3"></source><source src="..\..\audio\mauvaisereponse.ogg"></source></audio>
 
-	<body>
-		<?php
-			include 'menu.php';
-		?>		
 		<nav aria-label="breadcrum">
 			<ol class="breadcrumb bg-info">
 				<li class="breadcrumb-item active text-white font-weight-bold titre" aria-current="page">Mathématiques - Dictées de nombres - Niveau 3</li>
