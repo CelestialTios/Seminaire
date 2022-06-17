@@ -1,5 +1,4 @@
-
-  <?php include dirname(__FILE__).'/components/menu.php' ?>
+ <?php include dirname(__FILE__).'/components/menu.php' ?>
 
   <script>
     function initComparisons() {
@@ -79,7 +78,6 @@
       }
     }
   </script>
-				
 
 <div><span id="conseil" style="font-size:16px"></span>
     <nav aria-label="breadcrum">
