@@ -1,6 +1,6 @@
 <?php include '../../../../../components/menu.php' ?>
 		
-		<video intrinsicsize="400x300" style="width: 100%" controls src="/Seminaire/Content/videos/Conjugaison-ER.mp4">Problème de chargement</video>
+		<video intrinsicsize="400x300" style="width: 100%" controls src="<?=$_ENV['ROOT']?>Content/videos/Conjugaison-ER.mp4">Problème de chargement</video>
 
 	
 	</body>

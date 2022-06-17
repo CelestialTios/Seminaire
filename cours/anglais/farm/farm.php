@@ -3,7 +3,7 @@
 ?>
 		
 	<video width="1020" height="573" autoplay controls>
-  <source src="/Seminaire/Content/videos/spot.mp4" type="video/mp4">
+  <source src="<?=$_ENV['ROOT']?>Content/videos/spot.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>	</body>
 	<script type="text/javascript">

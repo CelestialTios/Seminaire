@@ -28,7 +28,7 @@
 			document.oncontextmenu = new Function("return false");
 			</script>
 			<div class="btn-group d-flex menu" role="group" aria-label="Basic example">
-				<a href="index.php" class="menu btn btn-dark font-weight-bold fas fa-home"><b style="font-family:perso"><br> Accueil</b></a>
+				<a href="<?=$_ENV['ROOT']?>index.php" class="menu btn btn-dark font-weight-bold fas fa-home"><b style="font-family:perso"><br> Accueil</b></a>
 				<div class="btn-group" role="group">
 					<button id="btnGroupDrop1" type="button" class="menu btn btn-danger dropdown-toggle font-weight-bold fa fa-book-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b style="font-family:perso"><br> Français</b></button>
 					<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -61,7 +61,7 @@
 						<a class="dropdown-item" href="<?=$_ENV['ROOT']?>jeux/ddm/ddm_jeux.php">Jeux</a>					
 					</div>
 				</div>
-				<a href="/Seminaire/cours/arts/chorale.php" class="menu btn btn-warning font-weight-bold fa fa-music">
+				<a href="<?=$_ENV['ROOT']?>cours/arts/chorale.php" class="menu btn btn-warning font-weight-bold fa fa-music">
 					<b style="font-family:perso"><br> Chorale</b>
 				</a>
 				<div class="btn-group" role="group">

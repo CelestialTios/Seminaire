@@ -1,6 +1,6 @@
 <?php include '../../../../components/menu.php' ?>
 		
-	<iframe width="1020" height="573" src="/Seminaire/Content/videos/Les_Gaulois.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+	<iframe width="1020" height="573" src="<?=$_ENV['ROOT']?>Content/videos/Les_Gaulois.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 
 </body>
 

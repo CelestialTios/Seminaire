@@ -86,10 +86,10 @@
         </ol>
     <div class="img-comp-container">
         <div class="img-comp-img">
-            <img src="/Seminaire/Content/img/classe2.JPG" width="980" height="600">
+            <img src="<?=$_ENV['ROOT']?>Content/img/classe2.JPG" width="980" height="600">
         </div>
         <div class="img-comp-img img-comp-overlay">
-            <img src="/Seminaire/Content/img/classe1.JPG" width="980" height="600">
+            <img src="<?=$_ENV['ROOT']?>Content/img/classe1.JPG" width="980" height="600">
         </div>
     </div>
 </body>		

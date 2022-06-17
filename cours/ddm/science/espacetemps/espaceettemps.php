@@ -14,7 +14,7 @@
 			</tr>
 			<tr class="bg-success text-white text-center table-fontlarge">
 			  <td>L'espace et le temps 1 - jeu</td>
-			  <td><a href="/Seminaire/jeux/ddm/science/ocean/jeuocean.php" class="col table-fontlarge"><b style="font-family:perso">Les continents et les océans</b></a></td>
+			  <td><a href="<?=$_ENV['ROOT']?>jeux/ddm/science/ocean/jeuocean.php" class="col table-fontlarge"><b style="font-family:perso">Les continents et les océans</b></a></td>
 			</tr>
 			
 		  </tbody>
