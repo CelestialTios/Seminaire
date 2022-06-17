@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <?php
 	include "../../../../components/menu.php";
 ?>
